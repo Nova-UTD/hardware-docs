@@ -15,6 +15,7 @@ function renderPartsData(data) {
             <h2>${part.id}: ${part.title}</h2>
             ${part.description} <br/>
             <b>Purpose:</b> ${part.purpose} <br/>
+            <b>Location:</b> ${part.location} <br/>
         `;
 
         if (part.links !== undefined) {

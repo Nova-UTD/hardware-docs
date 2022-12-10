@@ -1,14 +1,73 @@
 [
-    {
-        "id": "P001",
-        "title": "48V Contactor",
-        "description": "Trombetta 114-4811-020 Contactor 48V DC Bear",
-        "purpose": "Unknown",
-        "links": [
-            {
-                "title": "Product page",
-                "url": "https://www.lvelectronics.com/details/item?itemid=TROMBETTA%20114-4811-020#"
-            }
-        ]
-    }
+  {
+    "id": "P001",
+    "title": "48V Contactor",
+    "description": "Trombetta 114-4811-020 Contactor 48V DC Bear. Cylindrical, resembles a DC motor.",
+    "purpose": "Unknown",
+    "location": "Very front, behind large metal heat shield behind bumper",
+    "links": [
+      {
+        "title": "Product page",
+        "url": "https://www.lvelectronics.com/details/item?itemid=TROMBETTA%20114-4811-020#"
+      }
+    ]
+  },
+  {
+    "id": "P002",
+    "title": "Motor controller",
+    "description": "SEVCON Gen4 48V 450A. P/N 634A44410.",
+    "purpose": "\"The motor controller receives a 48 VDC input and produces a variable AC output to drive the motor in turn propelling the vehicle. The motor controller controls direction and speed of the motor based on inputs from the drive mode switch and the pedal position sensor. The motor controller facilitates regeneration mode. When the accelerator pedal is released and the vehicle is slowing down, the motor generates power which is fed back in to the traction battery pack. The same motor controller is used with both the 5 kW and 6.5kW motors. When used with a 6.5 kW motor, a heat sink is installed which facilitates the dissipation of additional heat generated when controlling the larger motor (GEM 407)\".",
+    "location": "Very front, behind large metal heat shield behind bumper",
+    "links": [
+      {
+        "title": "Product manual",
+        "url": "https://www.thunderstruck-ev.com/images/Gen4%20Product%20Manual%20V3%204.pdf"
+      }
+    ]
+  },
+  {
+    "id": "P003",
+    "title": "Polaris BMC",
+    "description": "The Polaris Battery Management Controller. Roughly size of a smartphone.",
+    "purpose": "A custom BMC provided by the car. From manual: Provides state of charge information to the VCM and strument cluster. Measures current through a shunt resistor on the “V-” d “-” terminals. Controls the charger relay. Controls the DC to DC relay. Controls the charger interlock circuit. Broadcasts charger fault codes on the CAN line. Sets charger algorithm depending on the battery pack is programmed for. Reads battery temperature. (GEM 391)",
+    "links": [
+      {
+        "title": "Product manual",
+        "url": "https://www.thunderstruck-ev.com/images/Gen4%20Product%20Manual%20V3%204.pdf"
+      }
+    ]
+  },
+  {
+    "id": "P040",
+    "title": "DC/DC converter, 48V-12V",
+    "description": "Sevcon 622/11212 500W DC-DC Converter",
+    "purpose": "A custom BMC provided by the car. From manual: Provides state of charge information to the VCM and strument cluster. Measures current through a shunt resistor on the “V-” d “-” terminals. Controls the charger relay. Controls the DC to DC relay. Controls the charger interlock circuit. Broadcasts charger fault codes on the CAN line. Sets charger algorithm depending on the battery pack is programmed for. Reads battery temperature. (GEM 391)",
+    "links": [
+      {
+        "title": "Link to similar product",
+        "url": "https://www.electricmotorsport.com/sevcon-72-80v-to-13-4v-500w-dc-dc-converter-w-enable-622-11213-ford-think-upgrade.html"
+      }
+    ]
+  },
+  {
+    "id": "F001",
+    "title": "Main fuse box / relay panel",
+    "description": "(GEM 417)",
+    "purpose": "Provides fuses and relays to most (but not all) circuits, including the VCM, lights, and wipers.",
+    "location": "Under the hood, directly to the right of the charging port."
+  },
+  {
+    "id": "F002",
+    "title": "Triple fuse box. Black. Size of matchbook.",
+    "description": "Holds two 30A and one 5A fuse.",
+    "purpose": "Unknown",
+    "location": "Near P003"
+  },
+  {
+    "id": "F003",
+    "title": "Huge fuse box that holds 50A fuse.",
+    "description": "Holds two 30A and one 5A fuse.",
+    "purpose": "Unknown",
+    "location": "Near P003"
+  }
 ]
