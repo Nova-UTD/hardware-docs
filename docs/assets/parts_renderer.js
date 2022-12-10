@@ -18,6 +18,10 @@ function renderPartsData(data) {
             <b>Location:</b> ${part.location} <br/>
         `;
 
+        if (part.image !== undefined) {
+          partElement.innerHTML += `<img src="/hardware/assets/res/parts/${part.image}" style="max-width: 50%;"></img><br/>`
+        }
+
         if (part.links !== undefined) {
             for (let idx in part.links) {
                 link = part.links[idx];

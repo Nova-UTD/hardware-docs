@@ -69,5 +69,19 @@
     "description": "Holds two 30A and one 5A fuse.",
     "purpose": "Unknown",
     "location": "Near P003"
+  },
+  {
+    "id": "S010",
+    "title": "Actuator position sensor (APS)",
+    "image": "S010.png",
+    "description": "P/N 4102657",
+    "purpose": "Switch that measures the position of the throttle pedal and sends it to the VCM",
+    "location": "Top of accelerator pedal",
+    "links": [
+      {
+        "title": "Product page",
+        "url": "https://www.partzilla.com/product/polaris/4012657"
+      }
+    ]
   }
 ]
