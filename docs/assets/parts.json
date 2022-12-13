@@ -74,13 +74,17 @@
     "id": "S010",
     "title": "Actuator position sensor (APS)",
     "image": "S010.png",
-    "description": "P/N 4102657",
+    "description": "P/N 4102657. Accepts a male 6-pin Delphi Metri-Pack 150 connector, P/N 12162210 (see links).",
     "purpose": "Switch that measures the position of the throttle pedal and sends it to the VCM",
     "location": "Top of accelerator pedal",
     "links": [
       {
         "title": "Product page",
         "url": "https://www.partzilla.com/product/polaris/4012657"
+      },
+      {
+        "title": "Connector used",
+        "url": "https://www.mouser.com/ProductDetail/Aptiv-formerly-Delphi/12162210?qs=EuSGJ%252B0eAhCXCwG%2FekGIRA%3D%3D"
       }
     ]
   }
