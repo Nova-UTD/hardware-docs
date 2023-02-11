@@ -1,5 +1,19 @@
 [
   {
+    "id": "A010",
+    "title": "Brake linear actuator",
+    "image": "S010.png",
+    "description": "Kar-Tech CAN Actuator",
+    "purpose": "Pushes brake pedal using signals from CAN network",
+    "location": "Top of accelerator pedal",
+    "links": [
+      {
+        "title": "Product manual",
+        "url": "https://cometmail.sharepoint.com/:b:/s/Voltron/EdV3SAjzPppNgjT-2w6LjbcBmC-LiPZ4OXdMPZ3GIL3AWw?e=gPse2s"
+      }
+    ]
+  },
+  {
     "id": "P001",
     "title": "48V Contactor",
     "description": "Trombetta 114-4811-020 Contactor 48V DC Bear. Cylindrical, resembles a DC motor.",
@@ -48,6 +62,18 @@
         "url": "https://www.electricmotorsport.com/sevcon-72-80v-to-13-4v-500w-dc-dc-converter-w-enable-622-11213-ford-think-upgrade.html"
       }
     ]
+  },
+  {
+    "id": "P051",
+    "title": "Auxiliary battery",
+    "description": "12V sealed lead acid battery. Refer to Polaris manual. Terminals use M6-1.0 machine screws. Ensure these are tight.",
+    "purpose": "Supplies 12V power to sensors, the MCU, EPAS, and more."
+  },
+  {
+    "id": "P052",
+    "title": "Primary battery",
+    "description": "48V battery banks.",
+    "purpose": "Mainly used for drive motors. Runs to the motor controller (P002)."
   },
   {
     "id": "F001",
