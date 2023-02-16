@@ -113,5 +113,25 @@
         "url": "https://www.mouser.com/ProductDetail/Aptiv-formerly-Delphi/12162210?qs=EuSGJ%252B0eAhCXCwG%2FekGIRA%3D%3D"
       }
     ]
+  },
+  {
+    "id": "S021",
+    "title": "VLP-16 LiDAR Interface Box, Left",
+    "image": "S020.png",
+    "description": "",
+    "purpose": "",
+    "location": "Under dash, far left, mounted to firewall",
+    "links": [
+    ]
+  },
+  {
+    "id": "S022",
+    "title": "VLP-16 LiDAR Interface Box, Right",
+    "image": "S020.png",
+    "description": "",
+    "purpose": "",
+    "location": "Under dash, far right, mounted to firewall",
+    "links": [
+    ]
   }
 ]
