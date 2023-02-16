@@ -64,6 +64,14 @@
     ]
   },
   {
+    "id": "P041",
+    "title": "12V relay",
+    "description": "Black box the size of a small teacup. Key-switched.",
+    "purpose": "Likely used to provide power to EPAS.",
+    "links": [
+    ]
+  },
+  {
     "id": "P051",
     "title": "Auxiliary battery",
     "description": "12V sealed lead acid battery. Refer to Polaris manual. Terminals use M6-1.0 machine screws. Ensure these are tight.",
