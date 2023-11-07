@@ -8,34 +8,34 @@ nav_order: 6
 
 ## Main Nova Schematic 
 
-![Nova Schematic](/navigator/assets/res/Full%20Nova%20Schematic.jpg)
+![Nova Schematic](assets/res/Full%20Nova%20Schematic.jpg)
 
 ---
 
 ## Power Source Schematics
 
-![Power Source Schematics](/navigator/assets/res/Power.jpg)
+![Power Source Schematics](assets/res/Power.jpg)
 
 ---
 
 ## USB Hub Schematics
 
-![USB Hub Schematics](/navigator/assets/res/USB%20Hub.jpg)
+![USB Hub Schematics](assets/res/USB%20Hub.jpg)
 
 ---
 
 ## Adafruit Grand Central Schematics
 
-![Adafruit Grand Central Schematics](/navigator/assets/res/Adafruit.jpg)
+![Adafruit Grand Central Schematics](assets/res/Adafruit.jpg)
 
 ---
 
 ## CAN Bus Systems
 
-![CAN Bus Systems](/navigator/assets/res/canBusSystem.jpg) 
+![CAN Bus Systems](assets/res/canBusSystem.jpg) 
 
 ---
 
 ## EPAS 
 
-![EPAS](/navigator/assets/res/EPAS.jpg)
+![EPAS](assets/res/EPAS.jpg)
