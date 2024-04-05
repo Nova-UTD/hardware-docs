@@ -51,8 +51,8 @@ There is a benefit to selecting a higher voltage battery largely because it enab
 * [Hobbyists](https://www.youtube.com/@ExtremePowerWheels/videos) have demonstrated that the stock motor can handle at least up to 75V and maybe 92.5V.  So we aim for a voltage less than 75V.
 * The vehicle should be able to run continuously for 2 hours.
 
-We found cost effective batteries typically used for golf carts at 48V.  Li Time sells a [48V 30Ah LiFePO Battery](https://www.litime.com/products/litime-48v-30ah-gc2-golf-cart-lithium-battery-gc2-battery-for-club-cart-golf-cart) that has bluetooth connectivity for diagnostics.  The nominal voltage is actually 51.2V, so a step-down converter will be needed for even the OBC.
+We found cost effective batteries typically used for golf carts at 48V.  Li Time sells a [48V 30Ah LiFePO Battery](https://www.litime.com/products/litime-48v-30ah-gc2-golf-cart-lithium-battery-gc2-battery-for-club-cart-golf-cart) that has bluetooth connectivity for diagnostics.  The nominal voltage is actually 51.2V, so a step-down converter may be needed for the OBC.
 
-Given the 48V, assuming no losses in the DC-DC conversion, the current draw would be 729W/48V = 15.2A (amps). Rounding this up to 16A to include losses, a 16Ah = 16000mAh battery would last one hour of operation and a 32Ah battery would last roughly 2 hours. Thus the 30Ah battery should last roughly 2 hours.
+Given the 48V, assuming no losses in the DC-DC conversion, the current draw would be 729W/48V = 15.2A (amps). Rounding this up to 16A to include losses, a 16Ah = 16000mAh battery would last 1 hour of operation and a 32Ah battery would last 2 hours. Thus the 30Ah battery should last roughly 2 hours.
 
 ## Sensor Mounts
