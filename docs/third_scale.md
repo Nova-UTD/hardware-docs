@@ -7,7 +7,9 @@ title: Third-Scale Vehicle
 
 
 ## Drive-by-Wire Retrofit
+
 ### Force measurements
+
 The following measurements were taken to determine design specifications for the motors used for steer and brake by-wire. These were performed with the incredibly sophisticated equipment of a luggage scale.
 * 7kg measured to turn the steering wheel. Measured perpendicular to the radius of the steering wheel at a distance of 3in from the center. This results in (7kg)(9.8m/s/s)(0.08m) = (68.6N)(0.08m) = 5.5 Nm of torque.
 * 35kg measured to rotate (apply) the brake. Measured at the small metal plate at a radius of 1.5in. This results in (35kg)(9.8m/s/s)(0.038m) = 13 Nm of torque.
@@ -21,6 +23,7 @@ Since the last two measurements corroborate each other, the torque specification
 ## Power and Electrical
 
 ### Electronics Voltage Needs
+
 * [Victron Energy Orion DC-DC Converter 48V>>24V](https://www.amazon.com/Victron-Energy-Orion-Tr-380-Watt-Converter/dp/B07DPZ9G7M) - rated up to 16A (380W) and accepts voltages between 32-70V.
 * [Victron Energy Orion DC-DC Converter 48V>>12V](https://www.amazon.com/Victron-Orion-TR-DC-DC-Converter-Isolated/dp/B07DQ5H3T2) - rated up to 30A (360W) and accepts voltages between 32-70V.
 * The [Flipsky-75100-pro VESC motor controller board](https://flipsky.net/products/flipsky-75100-pro-with-aluminum-pcb-based-on-vesc-for-electric-skateboard-scooter-ebike-speed-controller) accepts voltages between 14-84V. We had considered the [TRAMPA VESC 100V 250A](https://trampaboards.com/vesc-100v-250a-in-cnc-t6-silicone-sealed-aluminum-box--p-28113.html) that is a bit more capable, but we did not need that extra capability and it would be harder to order.
@@ -31,6 +34,7 @@ Since the last two measurements corroborate each other, the torque specification
 * The ZED cameras operate on GMSL connections from the NVIDIA Orin.
 
 ### Power Requirements
+
 * The stock motor pulls 16A at 24V, leading to 16*24= **384W**
 * The Docyne motor (throttle) is 5A at 18V --> 5*18 = **90W**
 * The Docyne motor (brake) is also **90W** (although used much less frequently)
@@ -40,6 +44,7 @@ Since the last two measurements corroborate each other, the torque specification
 These power needs **sum to 729W** (Watts).  This informs the capacity of the battery we select (in Amp-Hours, Ah) based on the length of time we wish to operate the vehicle.
 
 ### Battery Selection
+
 There is a benefit to selecting a higher voltage battery largely because it enables faster speeds, by driving the stock drive motor at a higher voltage.  There are also DC-DC step down converters that can be used to provide lower voltages for the electronics onboard. Our battery selection considers the following criteria:
 
 * Voltage greater than 24V
