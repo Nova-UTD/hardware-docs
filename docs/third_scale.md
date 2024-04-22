@@ -20,7 +20,25 @@ Since the last two measurements corroborate each other, the torque specification
 
 ### Motor Mounts
 
+There are two motors mounts in this prototype. 
+
+The first is the Brake Motor which is mounted beneath the toy car. This motor is mounted with a xft by yft hard aluminum plate and is screwed in place. This placement was used because the motor is as close to the top of the car and does not extend out of the lowest part of the car, so there is no risk of the motor being damaged. This placement also allowed for the mount to be supported by the existing shaft on the vehicle and dont add much weight compared to using the extrusion shafts.
+
 ## Power and Electrical
+
+Based on the Battery selected being 51.2V with a 30 amp per hour output the gauge wires needed to be changed to a 0 gauge wire. The calculation used to do this can be seen below:
+1. Calculate the Voltage Drop Index (VDI) using VDI = (Amps x Feet)/(% Voltage Drop x Voltage)
+* Amps = amp-hours divided by the number of hours running
+  The battery runs on 30 ah and arbitrarily choosing one hour will lead to -> 30 ah/ 1 hour = 30 amps
+* Feet = One-way wire distance
+  Measuring the length between the electronics and battery using a measuring tape the distance is about 2ft. Now adding .5ft   for any othe connections to other electronics that may be necessary.
+* % Voltage Drop = percentage of voltage drop acceptable for this circuit (tpically 2 - 5%)
+  
+The equation looked like this for this poroject's use case:
+VDI = 48.82 = (30amps x 2.5ft)/(3% x 51.2v)
+ 
+ 2. Since the VDI number did not match exactly to a VDI number already on the chart, This calls for rounding the value up to the next nearest one which is a VDI number of 49 and this ties to a wire gauge of 0 for a copper wire. The gauge size and VDI number will be different for different materials of wire.
+
 
 ### Electronics Voltage Needs
 
