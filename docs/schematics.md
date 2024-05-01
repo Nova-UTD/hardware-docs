@@ -12,6 +12,18 @@ nav_order: 6
 
 ---
 
+## Throttle Schematic
+
+![Throttle Schematic](assets/res/Throttle.jpg)
+
+---
+
+## Brake (LA CAN BUS) Schematic
+
+![Brake Schematic](assets/res/LinearActuator.jpg)
+
+---
+
 ## Power Source Schematics
 
 ![Power Source Schematics](assets/res/Power.jpg)
